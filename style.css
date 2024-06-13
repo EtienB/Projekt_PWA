@@ -1,0 +1,121 @@
+body
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #778da9;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+.container
+{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 2px;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 1%;
+}
+
+.separator 
+{
+    width: 100vw;
+    border: none;
+    height: 3px;
+    background-color: #FFDC00;
+    margin: 0;
+    position: relative;
+    left: 49%;
+    transform: translateX(-50%);
+}
+
+main
+{
+    padding: 3%;
+}
+
+.navigacija
+{
+    margin-left: auto;
+}
+
+.navigacija ul
+{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navigacija li
+{
+    display: inline;
+}
+
+.navigacija a
+{
+    text-decoration: none;
+    color: #778da9;
+    padding: 1% 1%;
+    text-align: center;
+}
+
+.navigacija a:hover
+{
+    text-decoration: underline;
+}
+
+
+.logo img 
+{
+    height: 30px;
+    padding-left: 10%;
+}
+
+img
+{
+    width: 100%;
+}
+
+section
+{
+    padding-top: 5%;
+}
+
+.kategorija
+{
+    background-color: #FFDC00;
+    height: 50px;
+}
+
+.kategorija h2
+{
+    padding-left: 3%;
+    padding-top: 15px;
+    font-size: larger;
+}
+
+footer
+{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px)
+{
+    .navigacija a
+    {
+        display: flex;
+        padding-bottom: 2%;
+        font-size: medium;
+    }
+
+    .navigacija
+    {
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+}
